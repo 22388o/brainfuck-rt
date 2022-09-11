@@ -12,6 +12,7 @@ make test
 
 # Be ensure you've installed `git` and `make` in your system
 ```
+Or check out [releases](https://github.com/rilysh/brainfuck-rt/releases)
 
 ## Info
 Interpreter: At first it read all the brainfuck instructions and temporarily saves all of them in an array, calculating instructions length and regarding this calculation, it starts to read each instruction by indexing the array. Areas like in a loop use a temporary array to calculate `[` and another array to match the previous array position with the index of the first array.
